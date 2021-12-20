@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('table-responsive', function () {
+Route::get('/table-responsive', function () {
     return view('view-tool.table-responsive');
 });
 
